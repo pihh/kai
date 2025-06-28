@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+.blog-entry--header {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.blog-entry--header time{
+       margin-left: -4px;
+   
+}
+main{
+
+    margin-right: auto;
+
+    min-width: 50vw;
+
+}
+aside{
+    
+    height: 100vh;
+    width: 0em;
+    margin-left: auto;
+
+}
+
+aside p{
+    width: 51vh;
+    text-align: center;
+}
+
+.sidebar{
+        background: white;
+    width: 1em;
+    height: 100%;
+}
+
+.dashboard-wrapper{
+    display: flex;
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+
+.main{
+        background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(0.5rem);
+}
+
+
+
+.module-border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right,  oklch(51.8% 0.253 323.949),oklch(66.7% 0.295 322.15));
+  padding: 2px;
+}
+
+.module {
+  background: white;
+  background: -webkit-linear-gradient( oklch(51.8% 0.253 323.949),oklch(66.7% 0.295 322.15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
